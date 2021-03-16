@@ -20,7 +20,7 @@ func BinaryTree() {
 	var num int
 	var btree *BTree = &BTree{}
 cont:
-	fmt.Println("1: Insert to tree \n2: InorderTraversal \n3: PreorderTraversal \n4:PostOrderTraversal")
+	fmt.Println("Select /2/3/4 \n1: Insert to tree \n2: InorderTraversal \n3: PreorderTraversal \n4:PostOrderTraversal")
 	fmt.Scanf("%d\n", &num)
 
 	switch num {
