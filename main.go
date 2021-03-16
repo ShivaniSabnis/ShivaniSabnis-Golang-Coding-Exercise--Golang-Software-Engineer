@@ -1,7 +1,10 @@
 package main
 
-import "github.com/ShivaniSabnis-Golang-Coding-Exercise--Golang-Software-Engineer/RobberAssignment"
+import (
+	"github.com/ShivaniSabnis-Golang-Coding-Exercise--Golang-Software-Engineer/BInaryTree"
+)
 
 func main() {
-	RobberAssignment.RobberAssignment()
+	//RobberAssignment.RobberAssignment()
+	BInaryTree.BinaryTree()
 }
